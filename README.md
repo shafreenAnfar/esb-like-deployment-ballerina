@@ -4,7 +4,7 @@
 
 This repository documents three approaches to achieve centralized deployment. These approaches are particularly useful when orchestration platforms like Kubernetes (K8s) are not available. In other words, they are suited for scenarios where the deployment leans toward a monolithic architecture, with a single runtime hosting multiple services on a virtual machine or similar setup.
 
-## Central Repository Solution
+## Single Repository Solution
 
 This approach involves using a single repository to group all your services. The code related to this solution is available in the `approach0` directory.
 
